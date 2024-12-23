@@ -1,0 +1,29 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Optional: Center the AddFlashcardForm */
+.add-flashcard-form {
+  margin-bottom: 30px;
+}
+
+/* Remove existing buttons styling if overlapping */
+button {
+  font-family: inherit;
+}
+
+/* Toastify Styles Override (Optional) */
+.Toastify__toast-container {
+  z-index: 9999;
+}
